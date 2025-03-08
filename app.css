@@ -1,3 +1,39 @@
-*h1{
-    font-size: 90px;
+body{
+    background-color: #fff6ec;
+}
+.container{
+    display: grid;
+    grid-template-areas: 
+    "header header header header header header"
+    "op1 op2 op3 op4 op5 op6";
+}
+.container > div.header{
+ grid-area: header;
+ text-align: center;
+ font-size: 90px; 
+}
+.container > div.op1{
+ grid-area: "op1"; 
+ text-align: center;
+ font-size: 35px;
+}
+.container > div.op2{
+grid-area: "op2"; 
+text-align: center;
+font-size: 35px;
+}
+.container > div.op3{
+grid-area: "op2"; 
+text-align: center;
+font-size: 35px;
+}
+.container > div.op4{
+grid-area: "op4"; 
+text-align: center;
+font-size: 35px;
+}
+.container > div.op5{
+grid-area: "op5"; 
+text-align: center;
+font-size: 35px;
 }
