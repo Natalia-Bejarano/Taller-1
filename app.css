@@ -11,36 +11,126 @@ body{
  grid-area: header;
  text-align: center;
  font-size: 90px; 
+
+ 
 }
 .container > div.op1{
  grid-area: "op1"; 
  text-align: center;
  font-size: 35px;
+ text-decoration: none;
+ font-weight: normal;
+ background-color: #5b1f00;
+ color: #ffffff;
+ padding: 10px 20px;
+border-radius: 20px;
+border-style: solid;
+ 
 }
 .container > div.op2{
 grid-area: "op2"; 
+text-decoration: none;
 text-align: center;
 font-size: 35px;
+font-weight: normal;
+color: #ffffff;
+background-color: #5b1f00;
+border-radius: 20px;
+padding: 10px 20px;
+border-style: solid;
 }
 .container > div.op3{
 grid-area: "op2"; 
+text-decoration: none;
 text-align: center;
 font-size: 35px;
+font-weight: normal;
+color: #ffffff;
+background-color: #5b1f00;
+border-radius: 20px;
+padding: 10px 20px;
+border-style: solid;
 }
 .container > div.op4{
 grid-area: "op4"; 
+text-decoration: none;
 text-align: center;
 font-size: 35px;
+font-weight: normal;
+color: #ffffff;
+background-color: #5b1f00;
+border-radius: 20px;
+padding: 10px 20px;
+border-style: solid;
 }
 .container > div.op5{
 grid-area: "op5"; 
+text-decoration: none;
 text-align: center;
 font-size: 35px;
+font-weight: normal;
+color: #ffffff;
+background-color: #5b1f00;
+border-radius: 20px;
+padding: 10px 20px;
+border-style: solid;
 }
 .container > div.op6{
 grid-area: "op6"; 
+text-decoration: none;
 text-align: center;
 font-size: 35px;
+font-weight: normal;
+color: #ffffff;
+background-color: #5b1f00;
+border-radius: 20px;
+padding: 10px 20px;
+border-style: solid;
+}
+.container2 > div.header{
+ grid-area: header;
+ text-align: center;
+ font-size: 90px;
+ color: #ffffff;
+background-color: #5b1f00;
+border-radius: 30px;
+border-style: solid;
+}
+.container3 > div.header{
+    grid-area: header;
+ text-align: center;
+ font-size: 90px;
+ color: #ffffff;
+background-color: #5b1f00;
+border-radius: 30px;
+border-style: solid;
+}
+.container4 > div.header{
+    grid-area: header;
+ text-align: center;
+ font-size: 90px;
+ color: #ffffff;
+background-color: #5b1f00;
+border-radius: 30px;
+border-style: solid;
+}
+.container5 > div.header{
+    grid-area: header;
+ text-align: center;
+ font-size: 90px;
+ color: #ffffff;
+background-color: #5b1f00;
+border-radius: 30px;
+border-style: solid;
+}
+.container6 > div.header{
+    grid-area: header;
+ text-align: center;
+ font-size: 90px;
+ color: #ffffff;
+background-color: #5b1f00;
+border-radius: 30px;
+border-style: solid;
 }
 
 
