@@ -1,18 +1,32 @@
 body{
-    background-color: #a18159;
+    background-color:  #ffd9b3;
 }
 .container{
     display: grid;
     grid-template-areas: 
     "header header header header header header"
-    "op1 op2 op3 op4 op5 op6";
+    "op1 op2 op3 op4 op5 op6"
+    "txt1 txt1 txt2 txt2 txt2 txt2";
 }
 .container > div.header{
  grid-area: header;
  text-align: center;
  font-size: 90px; 
-
- 
+ background-color: ;
+}
+.container > div.txt1{
+grid-area: txt1;
+background-color: #ffd9b3;
+color: #ffffff;
+height: 500px;
+width: 500px;
+}
+.container > div.txt2{
+    grid-area: txt2;
+    margin: 3px;
+    background-color: #a18159;
+    height: 700px;
+    width: 1000px;
 }
 .container > div.op1{
  grid-area: "op1"; 
@@ -24,7 +38,8 @@ body{
  color: #ffffff;
  padding: 10px 20px;
 border-radius: 20px;
-border-style: solid;
+margin: 8px;
+
  
 }
 .container > div.op2{
@@ -37,7 +52,7 @@ color: #ffffff;
 background-color: #5b1f00;
 border-radius: 20px;
 padding: 10px 20px;
-border-style: solid;
+margin: 8px;
 }
 .container > div.op3{
 grid-area: "op2"; 
@@ -49,7 +64,7 @@ color: #ffffff;
 background-color: #5b1f00;
 border-radius: 20px;
 padding: 10px 20px;
-border-style: solid;
+margin: 8px;
 }
 .container > div.op4{
 grid-area: "op4"; 
@@ -61,7 +76,7 @@ color: #ffffff;
 background-color: #5b1f00;
 border-radius: 20px;
 padding: 10px 20px;
-border-style: solid;
+margin: 8px;
 }
 .container > div.op5{
 grid-area: "op5"; 
@@ -73,7 +88,7 @@ color: #ffffff;
 background-color: #5b1f00;
 border-radius: 20px;
 padding: 10px 20px;
-border-style: solid;
+margin: 8px;
 }
 .container > div.op6{
 grid-area: "op6"; 
@@ -85,7 +100,7 @@ color: #ffffff;
 background-color: #5b1f00;
 border-radius: 20px;
 padding: 10px 20px;
-border-style: solid;
+margin: 8px;
 }
 .container2 > div.header{
  grid-area: header;
@@ -94,7 +109,6 @@ border-style: solid;
  color: #ffffff;
 background-color: #5b1f00;
 border-radius: 30px;
-border-style: solid;
 }
 .container3 > div.header{
     grid-area: header;
@@ -103,7 +117,6 @@ border-style: solid;
  color: #ffffff;
 background-color: #5b1f00;
 border-radius: 30px;
-border-style: solid;
 }
 .container4 > div.header{
     grid-area: header;
@@ -112,7 +125,6 @@ border-style: solid;
  color: #ffffff;
 background-color: #5b1f00;
 border-radius: 30px;
-border-style: solid;
 }
 .container5 > div.header{
     grid-area: header;
@@ -121,7 +133,6 @@ border-style: solid;
  color: #ffffff;
 background-color: #5b1f00;
 border-radius: 30px;
-border-style: solid;
 }
 .container6 > div.header{
     grid-area: header;
@@ -130,13 +141,14 @@ border-style: solid;
  color: #ffffff;
 background-color: #5b1f00;
 border-radius: 30px;
-border-style: solid;
 }
 .boton{
 color: #ffffff;
 text-align: center;
 background-color: #5b1f00;
 border-radius: 30px;
+text-decoration: none;
+
 
 }
 .boton:hover{
