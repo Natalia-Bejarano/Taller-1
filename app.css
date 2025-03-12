@@ -1,5 +1,8 @@
 body{
-    background-color:  #ffd9b3;
+    background-color:  #f2f2f2;
+    height: 100%;
+    margin: 0;
+    padding: 0; 
 }
 .container{
     display: grid;
@@ -7,154 +10,47 @@ body{
     "header header header header header header"
     "op1 op2 op3 op4 op5 op6"
     "txt1 txt1 txt2 txt2 txt2 txt2";
+    background-color:#482918;
 }
-.container > div.header{
- grid-area: header;
- text-align: center;
- font-size: 90px; 
- background-color: ;
-}
-.container > div.txt1{
-grid-area: txt1;
-background-color: #ffd9b3;
-color: #ffffff;
-height: 500px;
-width: 500px;
-}
-.container > div.txt2{
-    grid-area: txt2;
-    margin: 3px;
-    background-color: #a18159;
-    height: 700px;
-    width: 1000px;
-}
-.container > div.op1{
- grid-area: "op1"; 
- text-align: center;
- font-size: 35px;
- text-decoration: none;
- font-weight: normal;
- background-color: #5b1f00;
- color: #ffffff;
- padding: 10px 20px;
-border-radius: 20px;
-margin: 8px;
-
- 
-}
-.container > div.op2{
-grid-area: "op2"; 
-text-decoration: none;
-text-align: center;
-font-size: 35px;
-font-weight: normal;
-color: #ffffff;
-background-color: #5b1f00;
-border-radius: 20px;
-padding: 10px 20px;
-margin: 8px;
-}
-.container > div.op3{
-grid-area: "op2"; 
-text-decoration: none;
-text-align: center;
-font-size: 35px;
-font-weight: normal;
-color: #ffffff;
-background-color: #5b1f00;
-border-radius: 20px;
-padding: 10px 20px;
-margin: 8px;
-}
-.container > div.op4{
-grid-area: "op4"; 
-text-decoration: none;
-text-align: center;
-font-size: 35px;
-font-weight: normal;
-color: #ffffff;
-background-color: #5b1f00;
-border-radius: 20px;
-padding: 10px 20px;
-margin: 8px;
-}
-.container > div.op5{
-grid-area: "op5"; 
-text-decoration: none;
-text-align: center;
-font-size: 35px;
-font-weight: normal;
-color: #ffffff;
-background-color: #5b1f00;
-border-radius: 20px;
-padding: 10px 20px;
-margin: 8px;
-}
-.container > div.op6{
-grid-area: "op6"; 
-text-decoration: none;
-text-align: center;
-font-size: 35px;
-font-weight: normal;
-color: #ffffff;
-background-color: #5b1f00;
-border-radius: 20px;
-padding: 10px 20px;
-margin: 8px;
-}
-.container2 > div.header{
- grid-area: header;
- text-align: center;
- font-size: 90px;
- color: #ffffff;
-background-color: #5b1f00;
-border-radius: 30px;
-}
-.container3 > div.header{
+.header{
     grid-area: header;
- text-align: center;
- font-size: 90px;
- color: #ffffff;
-background-color: #5b1f00;
-border-radius: 30px;
+    display: flex;
+    height: fit-content;
 }
-.container4 > div.header{
-    grid-area: header;
- text-align: center;
- font-size: 90px;
- color: #ffffff;
-background-color: #5b1f00;
-border-radius: 30px;
+.op1, .op2, .op3, .op4, .op5, .op6{
+    background-color: #e6c29b;
+    height: 70px; 
+    text-align: center;
 }
-.container5 > div.header{
-    grid-area: header;
- text-align: center;
- font-size: 90px;
- color: #ffffff;
-background-color: #5b1f00;
-border-radius: 30px;
+.headerDerecha, .headerIzquierda{
+    flex: 1;
+    font-size: 100px;
+    text-align: center; 
+    color:  #f2f2f2;
+    justify-content: center;
 }
-.container6 > div.header{
-    grid-area: header;
- text-align: center;
- font-size: 90px;
- color: #ffffff;
-background-color: #5b1f00;
-border-radius: 30px;
+.img{
+    width: 150px;
+    height: 150px;
+    float: right;
+    transition: 0.5s;
+}
+.img:hover{
+    width: 300px;
+    height: 300px;
 }
 .boton{
-color: #ffffff;
-text-align: center;
-background-color: #5b1f00;
-border-radius: 30px;
-text-decoration: none;
-
-
+   padding: 10px 30px;
+   text-decoration: none;
+   font-size: 35px;
+   color: #f2f2f2;
+   border-radius: 5px;
+   transition: 0.4s;
+   display: inline-block
 }
 .boton:hover{
-opacity: 0.3;
-color: #a18159;
+    background-color: #482918;
+    opacity: 0.4;
+    padding: 15px 35px;
 }
-
-
 
