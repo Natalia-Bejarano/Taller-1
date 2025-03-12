@@ -12,7 +12,6 @@ body{
  grid-area: header;
  text-align: center;
  font-size: 90px; 
- background-color: ;
 }
 .container > div.txt1{
 grid-area: txt1;
@@ -39,20 +38,18 @@ width: 500px;
  padding: 10px 20px;
 border-radius: 20px;
 margin: 8px;
-
- 
 }
 .container > div.op2{
-grid-area: "op2"; 
-text-decoration: none;
-text-align: center;
-font-size: 35px;
-font-weight: normal;
-color: #ffffff;
-background-color: #5b1f00;
-border-radius: 20px;
-padding: 10px 20px;
-margin: 8px;
+    grid-area: "op1"; 
+    text-align: center;
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: normal;
+    background-color: #5b1f00;
+    color: #ffffff;
+    padding: 10px 20px;
+   border-radius: 20px;
+   margin: 8px;
 }
 .container > div.op3{
 grid-area: "op2"; 
@@ -111,7 +108,7 @@ background-color: #5b1f00;
 border-radius: 30px;
 }
 .container3 > div.header{
-    grid-area: header;
+grid-area: header;
  text-align: center;
  font-size: 90px;
  color: #ffffff;
@@ -119,7 +116,7 @@ background-color: #5b1f00;
 border-radius: 30px;
 }
 .container4 > div.header{
-    grid-area: header;
+grid-area: header;
  text-align: center;
  font-size: 90px;
  color: #ffffff;
@@ -132,15 +129,15 @@ border-radius: 30px;
  font-size: 90px;
  color: #ffffff;
 background-color: #5b1f00;
-border-radius: 30px;
+border-radius: 60px;
 }
 .container6 > div.header{
-    grid-area: header;
+grid-area: header;
  text-align: center;
  font-size: 90px;
  color: #ffffff;
 background-color: #5b1f00;
-border-radius: 30px;
+width: 100px;
 }
 .boton{
 color: #ffffff;
@@ -148,8 +145,6 @@ text-align: center;
 background-color: #5b1f00;
 border-radius: 30px;
 text-decoration: none;
-
-
 }
 .boton:hover{
 opacity: 0.3;
