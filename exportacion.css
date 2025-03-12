@@ -35,11 +35,15 @@
     border-radius: 5px;
    border-color: #5b1f00;
    font-weight: bold;
+   transition: 0.8s;
    
 }
 .container5 > nav ul li a:hover{
     background-color: #3f2717;
     color: #ffffff;
+    display: inline-block;
+    
+   
 }
 .container5 > div.header{
     grid-area: header;
@@ -66,6 +70,11 @@
     height: 100%;
     border-radius: 0px;
     margin: 0;
+    transition: 0.6s;
+    display: inline-block;
+}
+.img:hover{
+    opacity: 0.9;
 }
 
 .text .title{
@@ -119,14 +128,15 @@ input{
 button{
     background-color: #e6c29b;
     color: #3f2717;
-    border-color: #3f2717;
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
 }
 button:hover{
-    background-color: #e6c29b;
+    background-color:#3f2717 ;
+    transition: 0.8s;
+    color: #e6c29b;
 }
 div .cuadro{
     background-color: #3f2717;
