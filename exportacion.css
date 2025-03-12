@@ -40,10 +40,7 @@
 }
 .container5 > nav ul li a:hover{
     background-color: #3f2717;
-    color: #ffffff;
-    display: inline-block;
-    
-   
+    color: #ffffff;   
 }
 .container5 > div.header{
     grid-area: header;
@@ -72,6 +69,7 @@
     margin: 0;
     transition: 0.6s;
     display: inline-block;
+    
 }
 .img:hover{
     opacity: 0.9;
