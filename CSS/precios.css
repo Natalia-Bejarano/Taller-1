@@ -33,7 +33,7 @@ z-index: 1000;
 background-color: #edcdac;
 }
 .aside {grid-area: aside;
-background-color: #d5a484;}
+background-color: #efc1a2;}
 .footer {grid-area: footer;
 background-color: #0b36a1;}
 
@@ -90,33 +90,36 @@ h1 {
 .video1 {
     position: absolute;
     right: 30%;
-    top: 114%;
+    top: 119%;
     
 }
 .video2 {
     position: absolute;
     right: 30%;
-    top: 147%;
+    top: 153%;
     
 }
 .video3 {
     position: absolute;
     right: 30%;
-    top: 180%;
+    top: 187%;
     
 }
 .video4 {
     position: absolute;
     right: 30%;
-    top: 213%;
+    top: 221%;
     
 }
 
 .birrEtiope {
-    width: 60%;
+    width: 13%;
     height: 10vh;
+    position: absolute;
+    right:4%;
+    top: 40%;
     animation-name: animacion1;
-    animation-duration: 10s;
+    animation-duration: 12s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -131,11 +134,270 @@ h1 {
         opacity: 1;
 
     }
-    
+    75% {
+        opacity: 1;
+
+    }
+
     100%{
-        opacity: 0;
+        opacity: 1;
     }
 }
+
+.banderaEtiope {
+    width: 13%;
+    height: 10vh;
+    position: absolute;
+    right:4%;
+    top: 40%;
+    animation-name: animacion2;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 50;
+}
+@keyframes animacion2{
+    0%{
+        opacity: 50;
+    }
+    
+    50% {
+        opacity: 0;
+
+    }
+    
+    100%{
+        opacity: 50;
+    }
+}
+
+
+
+
+
+
+
+
+.banderaKenia {
+    width: 300px;
+    height: 89px;
+    position: absolute;
+    right:2%;
+    top: 60%;
+    animation-name: animacion3;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 0;
+}
+@keyframes animacion3{
+    0%{
+        opacity: 0;
+    }
+    
+    50% {
+        opacity: 1;
+
+    }
+    75% {
+        opacity: 1;
+
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.kenia {
+    width: 13%;
+    height: 10vh;
+    position: absolute;
+    right:4%;
+    top: 60%;
+    animation-name: animacion4;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 50;
+}
+@keyframes animacion4{
+    0%{
+        opacity: 50;
+    }
+    
+    50% {
+        opacity: 0;
+
+    }
+    
+    100%{
+        opacity: 50;
+    }
+}
+
+
+
+
+
+.billeteUganda{
+    width: 250px;
+    height: 89px;
+    position: absolute;
+    right:3%;
+    top: 82%;
+    animation-name: animacion4;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 0;
+}
+@keyframes animacion4{
+    0%{
+        opacity: 0;
+    }
+    
+    50% {
+        opacity: 1;
+
+    }
+    75% {
+        opacity: 1;
+
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.banderaUganda {
+    width: 250px;
+    height: 85px;
+    position: absolute;
+    right: 0;
+    top: 82%;
+    animation-name: animacion5;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 50;
+}
+@keyframes animacion5{
+    0%{
+        opacity: 50;
+    }
+    
+    50% {
+        opacity: 0;
+
+    }
+    
+    100%{
+        opacity: 50;
+    }
+}
+
+
+
+
+
+.billeteRuanda{
+    width: 240px;
+    height: 89px;
+    position: absolute;
+    right:3%;
+    top: 102%;
+    animation-name: animacion6;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 0;
+}
+@keyframes animacion6{
+    0%{
+        opacity: 0;
+    }
+    
+    50% {
+        opacity: 1;
+
+    }
+    75% {
+        opacity: 1;
+
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.banderaRuanda {
+    width: 250px;
+    height: 85px;
+    position: absolute;
+    right: 5%;
+    top: 102%;
+    animation-name: animacion7;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 50;
+}
+@keyframes animacion7{
+    0%{
+        opacity: 50;
+    }
+    
+    50% {
+        opacity: 0;
+
+    }
+    
+    100%{
+        opacity: 50;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
