@@ -1,7 +1,7 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 200px 75px 700px auto;
+    grid-template-rows: 200px 75px auto auto;
     gap: 3px; /*espacio entre elementos*/
     width: 100%;
     height: 70vh;
@@ -13,7 +13,8 @@
 }
 
 .header {grid-area: header;
-background-color: #5b1f00;}
+background-color: #5b1f00;
+}
 .nav  {grid-area: nav;
 background-color: #edcead;
 position: sticky;
@@ -45,25 +46,41 @@ a {
     cursor: pointer;
 }
 
-/*html <img class="africa1" src="recursos/africa1.webp" alt="img africa">
-
-.africa1{
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    top: 68px;
-    left: 55px;
-    animation: animacion1 15s linear infinite;
-    position: absolute;
+h1 {
+    text-align: center;  
+    font-size: 54px;
 }
-@keyframes animacion1 {
-    0% {
-        left: 100%; 
-    }
-    100% {
-        left: 0%; 
-    }
-}*/
+.africa1, .africa2, .africa4, .africa5 {
+    justify-content: center; 
+    align-items: center; 
+    width: 300px;
+    height: 300px;
+    border-radius: 30%;
+    padding-right: 35px;
+      
+}
+
+.texto1 {
+    text-align: justify; 
+    font-size: 20px;
+}
+.texto2, .texto3, .texto4, .texto5 {
+    text-align: justify; 
+    font-size: 18px;
+    width: 400px;
+    height: 280px;
+    background-color: #e2b98d; 
+    
+}
+
+.video1{
+    display: flex;
+    align-items: center; /* Alinea verticalmente */
+    justify-content: space-between; /* Espacio entre elementos */
+    gap: 20px; /* Espacio entre el texto y el video */
+    
+}
+
 
 .precios{
     font-size: 90px;
