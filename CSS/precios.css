@@ -12,6 +12,7 @@
     "footer footer footer";
 }
 
+
 .header {grid-area: header;
 background-color: #5b1f00;
 }
@@ -19,7 +20,9 @@ background-color: #5b1f00;
 background-color: #edcead;
 position: sticky;
 top: 0; 
+left: 0;
 z-index: 1000; 
+
 }
 .main {grid-area: main;
 background-color: #edcdac;
@@ -60,24 +63,47 @@ h1 {
       
 }
 
+
 .texto1 {
     text-align: justify; 
     font-size: 20px;
 }
+
 .texto2, .texto3, .texto4, .texto5 {
     text-align: justify; 
     font-size: 18px;
     width: 400px;
     height: 280px;
     background-color: #e2b98d; 
+    display: center;
+    position: relative;
+    left: 20%;
+    
     
 }
 
-.video1{
-    display: flex;
-    align-items: center; /* Alinea verticalmente */
-    justify-content: space-between; /* Espacio entre elementos */
-    gap: 20px; /* Espacio entre el texto y el video */
+.video1 {
+    position: absolute;
+    right: 30%;
+    top: 114%;
+    
+}
+.video2 {
+    position: absolute;
+    right: 30%;
+    top: 147%;
+    
+}
+.video3 {
+    position: absolute;
+    right: 30%;
+    top: 180%;
+    
+}
+.video4 {
+    position: absolute;
+    right: 30%;
+    top: 213%;
     
 }
 
