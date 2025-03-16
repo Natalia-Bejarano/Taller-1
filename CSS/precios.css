@@ -1,7 +1,7 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 200px 70px 700px auto;
+    grid-template-rows: 200px 75px 700px auto;
     gap: 3px; /*espacio entre elementos*/
     width: 100%;
     height: 70vh;
@@ -45,12 +45,33 @@ a {
     cursor: pointer;
 }
 
+/*html <img class="africa1" src="recursos/africa1.webp" alt="img africa">
+
+.africa1{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    top: 68px;
+    left: 55px;
+    animation: animacion1 15s linear infinite;
+    position: absolute;
+}
+@keyframes animacion1 {
+    0% {
+        left: 100%; 
+    }
+    100% {
+        left: 0%; 
+    }
+}*/
+
 .precios{
     font-size: 90px;
     text-align: center;
     color: white;
     
 }
+
 
 
 
