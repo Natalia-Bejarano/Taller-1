@@ -120,7 +120,7 @@
         
 
         <aside class="aside">
-            <h2>💰 África</h2>
+            <h2 class="africa">💰 África</h2>
             <img class="birrEtiope" src="recursos/birr etiope.jpg" alt="">
             <img class="banderaEtiope" src="recursos/banderaEtiopia.png" alt="">
             <img class="banderaKenia" src="recursos/banderaKenia.svg" alt="">
@@ -128,7 +128,67 @@
             <img class="billeteUganda" src="recursos/billeteUganda.jpg" alt="">
             <img class="banderaUganda" src="recursos/banderaUganda.svg" alt="">
             <img class="billeteRuanda" src="recursos/billeteRuanda.jpg" alt="">
-            <img class="banderaRuanda" src="recursos/banderaRuanda.svg" alt="">
+            <img class="cafeimagen1" src="recursos/etiopiaimagen1.webp" alt="">
+            <img class="cafeimagen2" src="recursos/etiopiaimagen2.jpeg" alt="">
+            <img class="cafeimagen3" src="recursos/etiopiaimagen3.webp" alt="">
+
+            
+            
+
+            <form class="formulario">
+                <fieldset>
+                    <legend>¡Descubre el Mundo del Café Africano!</legend>
+                    
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" required>
+            <br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Ingresa tu correo electrónico" required>
+                    <br><br>
+                    <label for="cafe">¿Cuál es tu tipo de café preferido?</label>
+                    <select name="cafe" id="cafe">
+                        <option value="arabica">Café Arábica</option>
+                        <option value="robusta">Café Robusta</option>
+                        <option value="liberica">Café Liberica</option>
+                    </select>
+                    <br>
+                    <label for="origen">¿Te gustaría conocer más sobre cafés de?</label>
+                    <select name="origen" id="origen">
+                        <option value="Etiopia">Etiopía</option>
+                        <option value="Kenia">Kenia</option>
+                        <option value="Uganda">Uganda</option>
+                        <option value="Tanzania">Tanzania</option>
+                    </select>
+                    <br>
+                    <label for="interes">¿Estás interesado en recibir más información sobre eventos de café?</label>
+                    <label>
+                        <input type="radio" name="interes" value="si" checked> Sí
+                    </label>
+                    <label>
+                        <input type="radio" name="interes" value="no"> No
+                    </label>
+                    <br><br>
+                    
+                    
+                    <label for="suscripcion">¿Quieres suscribirte a nuestro boletín sobre Café Africano?</label>
+                    <label>
+                        <input type="checkbox" name="suscripcion" checked> Sí, quiero recibir noticias y ofertas.
+                    </label>
+                    <br>
+                    <label for="archivo">Sube una foto de tu taza de café africano favorita:</label>
+                    <input type="file" name="archivo" id="archivo">
+            
+                    <input type="hidden" name="pais" value="África">
+            
+                </fieldset>
+            
+                <input type="submit" value="Enviar">
+            </form>
+    
+    
+    
+    
+    
             
         </aside>
 

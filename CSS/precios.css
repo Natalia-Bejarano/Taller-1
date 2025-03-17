@@ -23,13 +23,13 @@ background-color: #5b1f00;
     
 }
 .nav  {grid-area: nav;
-background-color: #b94c16b2;
+background-color: #b94c1690;
 position: sticky;
 top: 0; 
 left: 0;
 z-index: 1000; 
 font-size: 20px;
-width: 100%;  /* Asegúrate de que el nav ocupe todo el ancho */
+width: 100%;  
 box-shadow: 0 4px 2px -2px gray; 
 }
 .main {grid-area: main;
@@ -98,7 +98,7 @@ h1 {
 .video1 {
     position: absolute;
     right: 30%;
-    top: 112%;
+    top: 113%;
     
 }
 .video2 {
@@ -120,6 +120,9 @@ h1 {
     
 }
 
+.africa {
+    text-align: center;
+}
 .birrEtiope {
     width: 13%;
     height: 10vh;
@@ -194,7 +197,7 @@ h1 {
     right:2%;
     top: 60%;
     animation-name: animacion3;
-    animation-duration: 12s;
+    animation-duration: 16s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -253,7 +256,7 @@ h1 {
 
 .billeteUganda{
     width: 250px;
-    height: 89px;
+    height: 95px;
     position: absolute;
     right:3%;
     top: 82%;
@@ -284,8 +287,8 @@ h1 {
 }
 
 .banderaUganda {
-    width: 250px;
-    height: 85px;
+    width: 350px;
+    height: 95px;
     position: absolute;
     right: 0;
     top: 82%;
@@ -317,7 +320,7 @@ h1 {
 
 .billeteRuanda{
     width: 240px;
-    height: 89px;
+    height: 95px;
     position: absolute;
     right:3%;
     top: 102%;
@@ -349,7 +352,7 @@ h1 {
 
 .banderaRuanda {
     width: 250px;
-    height: 85px;
+    height: 95px;
     position: absolute;
     right: 5%;
     top: 102%;
@@ -376,9 +379,92 @@ h1 {
 }
 
 
+.cafeimagen1 {
+    width: 250px;
+    height: 215px;
+    position: absolute;
+    right: 2%;
+    top: 120%;
+    border-radius: 40px;
+    animation-name: animacion7;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 50;
+}
+@keyframes animacion7{
+    0%{
+        opacity: 50;
+    }
+    
+    50% {
+        opacity: 0;
 
+    }
+    
+    100%{
+        opacity: 50;
+    }
+}
 
+.cafeimagen2 {
+    width: 250px;
+    height: 215px;
+    position: absolute;
+    right: 2%;
+    top: 120%;
+    border-radius: 40px;
+    animation-name: animacion7;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 50;
+}
+@keyframes animacion7{
+    0%{
+        opacity: 0;
+    }
+    
+    50% {
+        opacity: 50;
 
+    }
+    
+    100%{
+        opacity: 0;
+    }
+}
+
+.cafeimagen3 {
+    width: 250px;
+    height: 215px;
+    position: absolute;
+    right: 2%;
+    top: 145%;
+    border-radius: 40px;
+    animation-name: animacion7;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 50;
+}
+@keyframes animacion7{
+    0%{
+        opacity: 50;
+    }
+    
+    50% {
+        opacity: 0;
+
+    }
+    
+    100%{
+        opacity: 50;
+    }
+}
 
 .footerInicio {
     width: 100%;
@@ -402,6 +488,19 @@ h1 {
     left: 8px;
     border-radius: 90px;
 
+}
+
+
+
+.formulario{
+    width: 309px;
+    height: 375px;
+    margin-top: 1350px;
+    margin-left: 16px;
+    resize: none;
+    background-color: #c3511746;
+
+    
 }
 
 
