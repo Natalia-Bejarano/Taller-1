@@ -7,9 +7,9 @@ body{
 .container{
     display: grid;
     grid-template-areas: 
-    "header header header header header header"
-    "op1 op2 op3 op4 op5 op6"
-    "txt1 txt1 txt2 txt2 txt2 txt2";
+    "header header header header header"
+    "op2 op3 op4 op5 op6"
+    "txt1 txt1 txt2 txt2 txt2";
     background-color:#482918;
     /* #e6c29b
     #482918
@@ -22,7 +22,7 @@ body{
     height: auto;
     align-items: center;
 }
-.op1, .op2, .op3, .op4, .op5, .op6{
+.op2, .op3, .op4, .op5, .op6{
     background-color: #e6c29b;
     height: 70px; 
     text-align: center;
@@ -32,17 +32,23 @@ body{
     flex: 2;
     font-size: 100px;
     text-align: left; 
-    color:  #f2f2f2;
+    color: #f2f2f2;
     justify-content: center;
     font-weight: normal;
     width: 100%;
     margin-left: 30px;
 }
-.imgT{
+.imgT {
     width: auto;
-    height: auto   ;
+    height: auto;
     float: left;
     margin-left: 30px;
+    transition: transform 2s ease-in-out;
+}
+
+.imgT:hover {
+    transform: translateX(50px); /* Esta vuelta es una chimba, coge y mueve en el x del plano cartesiano porque float no sirve con transition
+    entonces el transform que se de da arriba con el tiempo y la función de aca abajo hace que se mueva 50 pixeles a la derecha al pasar el cursor, re chimba jasjas*/
 }
 .headerDerecha{
     flex: 1; 
@@ -82,10 +88,53 @@ body{
 .columna1{
     margin: 10px;
     display: flex;
-    height: 100px;
+    height: auto;
     flex: 2.4;
     align-items: center;
+    flex-direction: column;
 }
+.content2{
+    display: flex;
+    flex-direction: row;
+}
+.unionCH{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.imgh{
+    flex: 1;
+}
+.imagh img {
+    max-width: 100%;
+    margin: 10px;
+    padding: 5px;
+    background-color: #e6c29b;
+    border-radius: 5px;
+    transition: transform 0.5s /*verificar uso del transform en w3school, tiene varios atributos*/
+}
+
+.imagh img:hover {
+    transform: scale(1.05);
+}
+
+.historia {
+    flex: 4;
+    margin: 20px;
+    border-radius: 14px;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #5a4a42;
+    background-color: #f5e6d7;
+    border-left: 5px solid #c49050;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.historia:hover {
+    transform: scale(1.01);
+}
+
 .titulo1{
     background-color: #482918;
     height: auto;
@@ -116,13 +165,67 @@ h3{
     margin: 30px 60px;
     border-radius: 8px;
 }
-.content{
+.content {
     flex: 3;
+    text-align: justify;
+    display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 24px;
+    margin-left: 30px;
+    margin-right: 30px;
+    max-height: 400px;
+    color: #5a4a42;
+    background: #f8e1c2;
+    padding: 20px;
+    border-radius: 15px;
 }
 video{
     width: 100%;
 }
+footer {
+    background-color: #3f2717;
+    text-align: center;
+    width: 100%;
+    margin-top: 25px;
+    padding: 20px 0;
+    font-size: 30px;
+}
 
+footer .titulo {
+    color: #e6c29b;
+    padding-top: 15px;
+}
 
+footer .enlaces {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+
+footer a {
+    text-decoration: none;
+    background-color: #e6c29b;
+    color: #3f2717;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.4s ease-in-out;
+}
+
+footer a:hover {
+    background-color: #3f2717;
+    color: #e6c29b;
+    transform: scale(1.1);
+}
+
+footer p {
+    color: #e6c29b;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+/*me copie del footer de Natalia xd*/
