@@ -1,0 +1,83 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 200px 75px auto auto;
+    gap: 2px; 
+    width: 100%;
+    height: 70vh;
+    grid-template-areas: 
+    "header header header "
+    "nav nav nav"
+    "main main aside"
+    "footer footer footer";
+}
+
+.header {grid-area: header;
+    background-color: #5b1f00;
+    }
+    
+    .nav  {grid-area: nav;
+        background-color: #b94c1690;
+        position: sticky;
+        top: 0; 
+        left: 0;
+        z-index: 1000; 
+        font-size: 20px;
+        width: 100%;  
+        box-shadow: 0 4px 2px -2px gray; 
+        }
+    .main {grid-area: main;
+    background-color: #edcdac;
+    }
+    .aside {grid-area: aside;
+    background-color: #efc1a2;
+    
+    }
+    .footer {grid-area: footer;
+    background-color: #edcead;
+    }
+    
+    ul {
+        justify-content: space-around;
+        list-style: none;
+        display: flex;
+        gap: 10px;   
+    }
+    
+    a {
+        padding: 10px 33px;
+        background-color: #e5bda2;
+        border-radius: 5px;
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+    }
+    
+
+
+.footerInicio {
+        width: 100%;
+        height: 55px;
+        background-color: #8a2f01ce;
+        color: white;
+        font-size: 27px;
+        text-align: center;
+    
+    }
+    
+.frase {
+        text-align: center;
+        font-size: 9px;
+    }
+    
+    
+.logoAfrica {
+        width: 132px;
+        height: 150px;
+        position: relative;
+        left: 8px;
+        border-radius: 90px;
+    
+    }
+    

@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 200px 75px auto auto;
-    gap: 2px; /*espacio entre elementos*/
+    gap: 2px; 
     width: 100%;
     height: 70vh;
     grid-template-areas: 
@@ -19,7 +19,7 @@ background-color: #5b1f00;
 .precios{
     font-size: 90px;
     text-align: center;
-    color: white;
+    color: white; 
     
 }
 .nav  {grid-area: nav;
