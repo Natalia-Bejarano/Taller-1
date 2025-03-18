@@ -15,6 +15,12 @@
 .header {grid-area: header;
     background-color: #5b1f00;
     }
+.Mapa{
+    text-align: center;
+    color: white;
+    font-size: 97px;
+
+}
     
     .nav  {grid-area: nav;
         background-color: #b94c1690;
@@ -54,6 +60,96 @@
         cursor: pointer;
     }
     
+.primero{
+    width: 1300px;
+    height: 1000px;
+    border: 5px solid #8a2f01ce;
+    position: relative;
+
+}
+
+.primeroAfrica{
+    width: 900px;
+    height: 950px;
+    margin-top: 22px;
+    margin-left: 25px;
+    position: relative;
+    
+}
+
+.mapaEtiopia{
+    width: 115px;
+    height: 125px;
+    position: absolute;
+    margin-top: 355px;
+    margin-left: 140px;
+    border-radius: 90px;
+    animation: moverIzquierda 10s infinite;
+     
+}
+
+@keyframes moverIzquierda{
+    0%{ opacity: 80;
+        transform: translatex(0); 
+    }
+    
+    50% {
+        opacity: 0;
+        transform: translatex(-410px) scale(0.5); 
+        
+    }
+    
+    100%{
+        opacity: 50;
+        transform: translatex(0); 
+    }
+}
+
+.GeografiaEtiopia{
+    width: 300px;
+    height: 190px;
+    border: 9px solid #8a2f01ce;
+    margin-left: 960px;
+    margin-top: -977px;
+    position: absolute;
+}
+
+.mapaKenia{
+    width: 115px;
+    height: 125px;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 140px;
+    border-radius: 90px;
+    animation: moverIzquierda 10s infinite;
+     
+}
+
+@keyframes moverIzquierda{
+    0%{ opacity: 80;
+        transform: translatex(0); 
+    }
+    
+    50% {
+        opacity: 0;
+        transform: translatex(-410px) scale(0.5); 
+        
+    }
+    
+    100%{
+        opacity: 50;
+        transform: translatex(0); 
+    }
+}
+
+.GeografiaKenia{
+    width: 300px;
+    height: 3o0px;
+    border: 9px solid #8a2f01ce;
+    margin-left: -10px;
+    margin-top: 20px;
+    position: absolute;
+}
 
 
 .footerInicio {
