@@ -90,7 +90,7 @@
 
     100%{
         transform: translateY(300px);
-        opacity: 1;
+        opacity: 0;
     }
 }
 
@@ -106,11 +106,12 @@
 .GeografiaEtiopia{
     width: 400px;
     height: 190px;
-    border: 4px solid #8a2f01ce;
+    border: 4px solid #be5a2779;
     margin-left: 880px;
     margin-top: -977px;
     position: absolute;
     background-color: #b94c162f;
+    border-radius: 5px;
 }
 
 .mapaKenia{
@@ -127,11 +128,12 @@
 .GeografiaKenia{
     width: 400px;
     height: 200px;
-    border: 4px solid #8a2f01ce;
+    border: 4px solid #be5a2779;
     margin-left: 880px;
     margin-top: -750px;
     position: absolute;
     background-color: #b94c162f;
+    border-radius: 5px;
 }
 
 .mapaUganda{
@@ -148,11 +150,12 @@
 .GeografiaUganda{
     width: 400px;
     height: 150px;
-    border: 4px solid #8a2f01ce;
+    border: 4px solid #be5a2779;
     margin-left: 880px;
     margin-top: -510px;
     position: absolute;
     background-color: #b94c162f;
+    border-radius: 5px;
 }
 
 
@@ -167,11 +170,12 @@
 .GeografiaRuanda{
     width: 400px;
     height: 200px;
-    border: 4px solid #8a2f01ce;
+    border: 4px solid #be5a2779;
     margin-left: 880px;
     margin-top: -332px;
     position: absolute;
     background-color: #b94c162f;
+    border-radius: 5px;
 }
 
 
@@ -200,6 +204,16 @@
     
     }
 
+
+    .video1 {
+        position: absolute;
+        right: 80px;
+        top: 40%;}
+
+    .video2 {
+            position: absolute;
+            right: 80px;
+            top: 60%;}
 
     footer > div.titulo {
         color: #e6c29b;
@@ -245,6 +259,8 @@
             margin-top: 30px;
             font-size: 22px;
         }
+
+        
         
         
             
