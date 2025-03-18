@@ -69,8 +69,8 @@
 }
 
 .primeroAfrica{
-    width: 900px;
-    height: 950px;
+    width: 600px;
+    height: 750px;
     margin-top: 22px;
     margin-left: 25px;
     position: relative;
@@ -81,35 +81,35 @@
     width: 115px;
     height: 125px;
     position: absolute;
-    margin-top: 355px;
+    margin-top: 255px;
     margin-left: 140px;
     border-radius: 90px;
-    animation: moverIzquierda 10s infinite;
+    animation: moverIzquierda1 10s infinite;
      
 }
 
-@keyframes moverIzquierda{
-    0%{ opacity: 80;
+@keyframes moverIzquierda1{
+    0%{ opacity: 0;
         transform: translatex(0); 
     }
     
     50% {
-        opacity: 0;
-        transform: translatex(-410px) scale(0.5); 
+        opacity: 50;
+        transform: translatex(-330px) scale(0.5); 
         
     }
     
     100%{
-        opacity: 50;
+        opacity: 0;
         transform: translatex(0); 
     }
 }
 
 .GeografiaEtiopia{
-    width: 300px;
+    width: 400px;
     height: 190px;
     border: 9px solid #8a2f01ce;
-    margin-left: 960px;
+    margin-left: 880px;
     margin-top: -977px;
     position: absolute;
 }
@@ -118,21 +118,21 @@
     width: 115px;
     height: 125px;
     position: absolute;
-    margin-top: 450px;
+    margin-top: 340px;
     margin-left: 140px;
     border-radius: 90px;
-    animation: moverIzquierda 10s infinite;
+    animation: moverIzquierda2 10s infinite;
      
 }
 
-@keyframes moverIzquierda{
+@keyframes moverIzquierda2{
     0%{ opacity: 80;
         transform: translatex(0); 
     }
     
     50% {
-        opacity: 0;
-        transform: translatex(-410px) scale(0.5); 
+        opacity: 1;
+        transform: translatex(-330px) scale(0.5); 
         
     }
     
@@ -143,13 +143,68 @@
 }
 
 .GeografiaKenia{
-    width: 300px;
-    height: 3o0px;
+    width: 400px;
+    height: 200px;
     border: 9px solid #8a2f01ce;
-    margin-left: -10px;
-    margin-top: 20px;
+    margin-left: 880px;
+    margin-top: -750px;
     position: absolute;
 }
+
+.mapaUganda{
+    width: 105px;
+    height: 105px;
+    position: absolute;
+    margin-top: 335px;
+    margin-right: 310px;
+    border-radius: 90px;
+    animation: moverDerecha 20s infinite;
+   
+     
+}
+
+@keyframes moverDerecha{
+    0%{ opacity: 0;
+        transform: translatex(0); 
+    }
+    
+    50% {
+        opacity: 1;
+        transform: translatex(-218px) scale(0.5); 
+        
+    }
+    
+    100%{
+        opacity: 10;
+        transform: translatex(0); 
+    }
+}
+
+.GeografiaUganda{
+    width: 400px;
+    height: 150px;
+    border: 9px solid #8a2f01ce;
+    margin-left: 880px;
+    margin-top: -510px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+.GeografiaRuanda{
+    width: 400px;
+    height: 200px;
+    border: 9px solid #8a2f01ce;
+    margin-left: 880px;
+    margin-top: -332px;
+    position: absolute;
+}
+
 
 
 .footerInicio {
