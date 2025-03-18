@@ -68,143 +68,111 @@
 
 }
 
-.primeroAfrica{
-    width: 600px;
-    height: 750px;
-    margin-top: 22px;
-    margin-left: 25px;
-    position: relative;
+.mapaAfrica{
+    width: 515px;
+    height: 525px;
+    position: absolute; 
+    margin-left: 10px; 
+    margin-top: 80px;
+    animation: africa 20s infinite ;
     
 }
-
-.mapaEtiopia{
-    width: 115px;
-    height: 125px;
-    position: absolute;
-    margin-top: 255px;
-    margin-left: 140px;
-    border-radius: 90px;
-    animation: moverIzquierda1 10s infinite;
-     
-}
-
-@keyframes moverIzquierda1{
-    0%{ opacity: 0;
-        transform: translatex(0); 
+@keyframes africa{
+    0%{
+        transform: translateY(-20px);
+        opacity: 0;
     }
     
     50% {
-        opacity: 50;
-        transform: translatex(-330px) scale(0.5); 
-        
+        opacity: 1;
+
     }
-    
+
     100%{
-        opacity: 0;
-        transform: translatex(0); 
+        transform: translateY(300px);
+        opacity: 1;
     }
 }
+
+.mapaEtiopia{
+    width: 315px;
+    height: 225px;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 540px;     
+}
+
 
 .GeografiaEtiopia{
     width: 400px;
     height: 190px;
-    border: 9px solid #8a2f01ce;
+    border: 4px solid #8a2f01ce;
     margin-left: 880px;
     margin-top: -977px;
     position: absolute;
+    background-color: #b94c162f;
 }
 
 .mapaKenia{
-    width: 115px;
-    height: 125px;
+    width: 315px;
+    height: 225px;
     position: absolute;
-    margin-top: 340px;
-    margin-left: 140px;
-    border-radius: 90px;
-    animation: moverIzquierda2 10s infinite;
+    margin-top: 280px;
+    margin-left: 540px;
      
 }
 
-@keyframes moverIzquierda2{
-    0%{ opacity: 80;
-        transform: translatex(0); 
-    }
-    
-    50% {
-        opacity: 1;
-        transform: translatex(-330px) scale(0.5); 
-        
-    }
-    
-    100%{
-        opacity: 50;
-        transform: translatex(0); 
-    }
-}
+
 
 .GeografiaKenia{
     width: 400px;
     height: 200px;
-    border: 9px solid #8a2f01ce;
+    border: 4px solid #8a2f01ce;
     margin-left: 880px;
     margin-top: -750px;
     position: absolute;
+    background-color: #b94c162f;
 }
 
 .mapaUganda{
-    width: 105px;
-    height: 105px;
+    width: 315px;
+    height: 225px;
     position: absolute;
-    margin-top: 335px;
-    margin-right: 310px;
-    border-radius: 90px;
-    animation: moverDerecha 20s infinite;
-   
+    margin-top: 525px;
+    margin-left: 540px;
      
 }
 
-@keyframes moverDerecha{
-    0%{ opacity: 0;
-        transform: translatex(0); 
-    }
-    
-    50% {
-        opacity: 1;
-        transform: translatex(-218px) scale(0.5); 
-        
-    }
-    
-    100%{
-        opacity: 10;
-        transform: translatex(0); 
-    }
-}
+
 
 .GeografiaUganda{
     width: 400px;
     height: 150px;
-    border: 9px solid #8a2f01ce;
+    border: 4px solid #8a2f01ce;
     margin-left: 880px;
     margin-top: -510px;
     position: absolute;
+    background-color: #b94c162f;
 }
 
 
-
-
-
-
-
+.mapaRuanda{
+    width: 315px;
+    height: 225px;
+    position: absolute;
+    margin-top: 760px;
+    margin-left: 540px;
+}
 
 .GeografiaRuanda{
     width: 400px;
     height: 200px;
-    border: 9px solid #8a2f01ce;
+    border: 4px solid #8a2f01ce;
     margin-left: 880px;
     margin-top: -332px;
     position: absolute;
+    background-color: #b94c162f;
 }
-
 
 
 .footerInicio {
@@ -231,4 +199,53 @@
         border-radius: 90px;
     
     }
+
+
+    footer > div.titulo {
+        color: #e6c29b;
+        text-align: center;
+        justify-content: center;
+        margin-top: 15px;
+        }
+        footer{
+            background-color: #3f2717;
+            padding: auto;
+            font-size: 30px;
+            position: relative;
+            width: 1700px;
+        
+        }
+        footer > div.enlaces{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        
+        }
+        footer a{
+            text-decoration: none;
+            background-color: #e6c29b;
+            color: #3f2717;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        footer a:hover{
+            background-color: #3f2717;
+            color: #e6c29b;
+            transform: scale(1.1);
+            transition: 0.8s;
+        
+        }
+        footer p{
+            text-align: center;
+            justify-items: center;
+            color: #e6c29b;
+            margin-top: 30px;
+            font-size: 22px;
+        }
+        
+        
+            
     
