@@ -137,21 +137,21 @@
 
             <form class="formulario">
                 <fieldset>
-                    <legend>¡Descubre el Mundo del Café Africano!</legend>
-                    
+                    <legend> ¡Descubre el Mundo del Café Africano! </legend>
+            
                     <label for="nombre">Nombre:</label>
                     <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" required>
-            <br>
+            
                     <label for="email">Email:</label>
                     <input type="email" name="email" id="email" placeholder="Ingresa tu correo electrónico" required>
-                    <br><br>
+            
                     <label for="cafe">¿Cuál es tu tipo de café preferido?</label>
                     <select name="cafe" id="cafe">
                         <option value="arabica">Café Arábica</option>
                         <option value="robusta">Café Robusta</option>
                         <option value="liberica">Café Liberica</option>
                     </select>
-                    <br>
+            
                     <label for="origen">¿Te gustaría conocer más sobre cafés de?</label>
                     <select name="origen" id="origen">
                         <option value="Etiopia">Etiopía</option>
@@ -159,30 +159,24 @@
                         <option value="Uganda">Uganda</option>
                         <option value="Tanzania">Tanzania</option>
                     </select>
-                    <br>
-                    <label for="interes">¿Estás interesado en recibir más información sobre eventos de café?</label>
-                    <label>
-                        <input type="radio" name="interes" value="si" checked> Sí
-                    </label>
-                    <label>
-                        <input type="radio" name="interes" value="no"> No
-                    </label>
-                    <br><br>
-                    
-                    
-                    <label for="suscripcion">¿Quieres suscribirte a nuestro boletín sobre Café Africano?</label>
-                    <label>
-                        <input type="checkbox" name="suscripcion" checked> Sí, quiero recibir noticias y ofertas.
-                    </label>
-                    <br>
-                    <label for="archivo">Sube una foto de tu taza de café africano favorita:</label>
-                    <input type="file" name="archivo" id="archivo">
+            
+                    <label for="interes">¿Te interesa recibir información sobre eventos?</label>
+                    <div class="radio-group">
+                        <input type="radio" name="interes" value="si" id="interes-si" checked>
+                        <label for="interes-si">Sí</label>
+            
+                        <input type="radio" name="interes" value="no" id="interes-no">
+                        <label for="interes-no">No</label>
+                    </div>
+            
+                    <label for="suscripcion">¿Quieres suscribirte a nuestro boletín?</label>
+                    <input type="checkbox" name="suscripcion" id="suscripcion" checked>
+                    <label for="suscripcion">Sí, quiero recibir noticias y ofertas.</label>
             
                     <input type="hidden" name="pais" value="África">
             
+                    <input type="submit" value="Enviar">
                 </fieldset>
-            
-                <input type="submit" value="Enviar">
             </form>
     
     
