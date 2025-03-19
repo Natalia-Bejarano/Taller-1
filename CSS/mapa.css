@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 200px 75px auto auto;
-    gap: 2px; 
+    gap: 4px; 
     width: 100%;
     height: 70vh;
     grid-template-areas: 
@@ -22,42 +22,59 @@
 
 }
     
-    .nav  {grid-area: nav;
-        background-color: #b94c1690;
-        position: sticky;
-        top: 0; 
-        left: 0;
-        z-index: 1000; 
-        font-size: 20px;
-        width: 100%;  
-        box-shadow: 0 4px 2px -2px gray; 
-        }
+.nav {
+    grid-area: nav;
+    background-color: #2e1102fb;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px 0;
+}
     .main {grid-area: main;
-    background-color: #edcdac;
+    background-color: #c8a589ab;
     }
     .aside {grid-area: aside;
-    background-color: #efc1a2;
+    background-color: #efc1a2
+    ;
     
     }
     .footer {grid-area: footer;
     background-color: #edcead;
     }
     
-    ul {
-        justify-content: space-around;
+    .nav ul {
+        justify-content: center;
         list-style: none;
         display: flex;
-        gap: 10px;   
+        gap: 15px;
+        padding: 0;
+        margin: 0;
     }
     
-    a {
-        padding: 10px 33px;
-        background-color: #e5bda2;
-        border-radius: 5px;
+    .nav ul li {
         display: inline-block;
+    }
+    
+    .nav ul li a {
+        padding: 10px 33px;
+        background: linear-gradient(to bottom, #462508, #d9a784);
+        border-radius: 8px;
         text-decoration: none;
         color: white;
-        cursor: pointer;
+        font-weight: bold;
+        transition: all 0.3s ease-in-out;
+        display: inline-block;
+        text-align: center;
+        border: 3px solid #b97d5e;
+    }
+    
+    .nav ul li a:hover {
+        background: linear-gradient(to bottom, #d9a784, #c28f6d);
+        border-color: #9b5d3c;
+        transform: translateY(-2px);
     }
     
 .primero{
@@ -74,7 +91,7 @@
     position: absolute; 
     margin-left: 10px; 
     margin-top: 80px;
-    animation: africa 20s infinite ;
+    animation: africa 10s infinite ;
     
 }
 @keyframes africa{
@@ -90,7 +107,7 @@
 
     100%{
         transform: translateY(300px);
-        opacity: 0;
+        opacity: 1;
     }
 }
 
@@ -104,14 +121,18 @@
 
 
 .GeografiaEtiopia{
-    width: 400px;
-    height: 190px;
-    border: 4px solid #be5a2779;
+    width: 380px;
+    height: 170px;
+    border: 4px solid #be5a27;
     margin-left: 880px;
     margin-top: -977px;
     position: absolute;
-    background-color: #b94c162f;
-    border-radius: 5px;
+    background-color: #ffefe0; 
+    border-radius: 10px; 
+    padding: 15px; 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    color: #5a2d0c; 
 }
 
 .mapaKenia{
@@ -126,14 +147,19 @@
 
 
 .GeografiaKenia{
-    width: 400px;
-    height: 200px;
-    border: 4px solid #be5a2779;
+    width: 380px;
+    height: 170px;
+    border: 4px solid #be5a27;
     margin-left: 880px;
     margin-top: -750px;
     position: absolute;
-    background-color: #b94c162f;
-    border-radius: 5px;
+    background-color: #ffefe0; 
+    border-radius: 10px; 
+    padding: 15px; 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    color: #5a2d0c; 
+    transition: all 0.3s ease-in-out;
 }
 
 .mapaUganda{
@@ -145,17 +171,20 @@
      
 }
 
-
-
 .GeografiaUganda{
-    width: 400px;
-    height: 150px;
-    border: 4px solid #be5a2779;
+    width: 380px;
+    height: 170px;
+    border: 4px solid #be5a27;
     margin-left: 880px;
-    margin-top: -510px;
+    margin-top: -517px;
     position: absolute;
-    background-color: #b94c162f;
-    border-radius: 5px;
+    background-color: #ffefe0; 
+    border-radius: 10px; 
+    padding: 15px; 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    color: #5a2d0c; 
+    transition: all 0.3s ease-in-out;
 }
 
 
@@ -168,14 +197,19 @@
 }
 
 .GeografiaRuanda{
-    width: 400px;
-    height: 200px;
-    border: 4px solid #be5a2779;
+    width: 380px;
+    height: 170px;
+    border: 4px solid #be5a27;
     margin-left: 880px;
-    margin-top: -332px;
+    margin-top: -282px;
     position: absolute;
-    background-color: #b94c162f;
-    border-radius: 5px;
+    background-color: #ffefe0; 
+    border-radius: 10px; 
+    padding: 15px; 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    color: #5a2d0c; 
+    transition: all 0.3s ease-in-out;
 }
 
 
@@ -205,15 +239,53 @@
     }
 
 
-    .video1 {
-        position: absolute;
-        right: 80px;
-        top: 40%;}
-
-    .video2 {
-            position: absolute;
-            right: 80px;
-            top: 60%;}
+    .aside {
+        width: 300px;
+        padding: 20px;
+        background-color: #8B5E3B;
+        color: white;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+        margin-left: -370px;
+    }
+    .aside h2 {
+        font-size: 24px;
+        margin-bottom: 10px;}
+    .contenedor-imagen img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    
+    
+    
+    
+    .formulario {
+        margin-top: 15px;
+    }
+    
+    .formulario input {
+        width: 90%;
+        padding: 8px;
+        margin: 5px 0;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .formulario button {
+        width: 95%;
+        padding: 10px;
+        background: #d4a373;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .formulario button:hover {
+        background: #c08b5c;
+    }
 
     footer > div.titulo {
         color: #e6c29b;
