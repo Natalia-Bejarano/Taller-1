@@ -653,6 +653,13 @@ button:hover {
     align-items: center;
 }
 
+.footer-logo {
+    width: 120px; 
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 9px;
+}
+
 .footer-links {
     margin-top: 10px;
 }
