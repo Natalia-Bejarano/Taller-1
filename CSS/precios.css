@@ -208,6 +208,12 @@ h1 {
     font-size: 24px;
     margin-bottom: 10px;
 }
+.aside .banderaUganda{
+    width: 200px;
+    margin-right: 100px;
+    align-items: center;
+}
+
 .birrEtiope {
     width: 13%;
     height: 10vh;
